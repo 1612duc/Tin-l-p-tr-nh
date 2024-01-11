@@ -3,7 +3,7 @@ def np(x):
     while x > 0:
         du = x % 2
         kq = str(du) + kq
-        x = x // 2
+        x //= 2
     return kq
 
 n = list(map(int, input().split(",")))
